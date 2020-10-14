@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Percobaak ke 2 hari ini</h1>
+  <h3>Test</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Utama</div>
+    <div class="menuitem">Kedua</div>
+    <div class="menuitem">Ketiga</div>
+    <div class="menuitem">Keempat</div>
+  </div>
+
+  <div class="main">
+    <h2>Percobaan ke 2</h2>
+    <p>Masih mencoba.</p>
+    <img src="picture1.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>Satu?</h2>
+    <p>Satu 1.</p>
+    <h2>Dua?</h2>
+    <p>Dua2.</p>
+    <h2>Tiga?</h2>
+    <p>Tiga 3</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Percobaan ke dua</div>
+
+</body>
+</html>
